@@ -84,7 +84,7 @@ function calculateCorrectAnswer(){
 
 }
 /**
- * Gets the current scor from the DOM and increments it by 1
+ * Gets the current score from the DOM and increments it by 1
  */
 function incrementScore(){
 
@@ -108,7 +108,7 @@ function displayAdditionQuestion(operand1, operand2){
     document.getElementById('operator').textContent = "+";
 }
 
-function displaySubtractQuestion(){
+function displaySubtractQuestion(operand1, operand2){
     document.getElementById("operand1").textContent = operand1 > operand2 ? operand1 : operand2;
     document.getElementById("operand2").textContent = operand1 > operand2 ? operand2 : operand1;
     document.getElementById('operator').textContent = "-";
