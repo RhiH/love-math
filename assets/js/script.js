@@ -80,7 +80,7 @@ function calculateCorrectAnswer(){
  */
 function incrementScore(){
 
-    let oldScore = parseInt(document.getElementById("score").innterText);
+    let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
 
 }
@@ -89,7 +89,7 @@ function incrementScore(){
  */
 
 function incrementWrongAnswer(){
-    let oldScore = parseInt(document.getElementById("incorrect").innterText);
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 
 }
